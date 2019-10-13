@@ -1,3 +1,140 @@
+<!DOCTYPE html>
 <html>
-    <h1>Hello Test </h1>
+    <head>
+        <title>Resume</title>
+        <meta charset = "UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
+        <meta name="description" content="Resume" />
+        <meta http-equiv=”content-language” content=”th” />
+        <link rel="stylesheet"  href= "rs.css">       
+        <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+    </head>
+    <style>        
+        html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+    </style>
+
+   
+
+    <body class = "w3-light-dark">
+        <!-- Page Container -->
+        <div class="w3-content w3-margin-top" style="max-width:1400px;">
+
+            <!-- The Grid -->
+            <div class="w3-row-padding">
+
+                <!-- Left Column -->
+                <div class="w3-third">
+                    <div class="w3-white w3-text-grey w3-card-4" id = "setBackground_left">
+                        <div class="w3-display-container">
+                            <img src="https://lh3.googleusercontent.com/849K7Wm7NxOAozkxN0aoQGQ41qynLOUQVwpFHBePXG1ZWoZh3GsDI6Yqp84Xs1QmSoP1GtXWDf8Gfb4WW2M33caQb5Am7tJnRXv40ljyjJeUSl6XK7BmdqgxWgyneavG3syxheK6qw=w1920-h1080" style="width:100%" alt="Avatar">
+                            <div class="w3-display-bottomleft w3-container w3-text-white">
+                                <h2>HELLO MY NAME 
+                                     <br>IS <span class="w3-text-yellow">KONG.</h2> 
+                                
+                            </div>
+                        </div>
+                        <div class = "w3-container">
+                            <p id = "fname"><i class="fa fa-user fa-fw w3-margin-right w3-large w3-text-yellow"></i>PISEK PATARAVESARUCH<i class="fa fa-pencil fa-fw w3-float-right w3-large w3-pencil" onclick="toggle_pencil()" id="pencil_1"></i></p> 
+                            <div id="changeName" >
+                                    <p id="p_changeName"></p>
+                            </div>
+                            <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-yellow"></i>IT</p>
+                            <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-yellow"></i>Thailand</p>
+                            <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-yellow"></i>kong39615@gmail.com</p>
+                            
+                            <hr>
+                            <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-yellow"></i>Skills</b><i class="fa fa-plus w3-float-right w3-plus w3-pencil" id="plus_1" ></i></p>
+                            <div id="addSkill" >
+                                <p id="p_addSkill"></p>
+                            </div>
+                            <hr>
+                            <p id = "p_list_skill"></p>
+                            
+
+                            <br>
+                            <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-yellow"></i>Languages</b></p>
+                            <p>English
+                            <div class="w3-light-dark w3-round-xlarge w3-small">
+                                <div class="w3-round-xlarge w3-yellow" style="height:24px;width:60%"></div>
+                            </div>
+                            <p>chinese
+                            <div class="w3-light-dark w3-round-xlarge w3-small">
+                                <div class="w3-round-xlarge w3-yellow" style="height:24px;width:45%"></div>
+                            </div>                            
+                            <br>
+                            </div>
+                    </div>
+                    <br>
+                    <!-- End Left Column -->
+                </div> 
+
+                <!-- Right Column -->
+                <div class = "w3-twothird">
+                    <div class="w3-container w3-card w3-white w3-margin-bottom" id ="setBackground_right1">
+                        <div class="w3-container" >
+                            <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-yellow"></i>Work Experience
+                                <i class="fa fa-desktop desktop-lists-dark" id = "desktop_icon" ></i>
+                            </h2>
+                        </div>
+
+                        <div class="w3-container">
+                            <h5 class="w3-opacity"><b>Front End Developer</b></h5>
+                            <h6 class="w3-text-yellow"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2015 - <span class="w3-tag w3-yellow w3-round">Current</span></h6>
+                            <p>Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+                            <hr>
+                        </div>
+                        <div class="w3-container">
+                            <h5 class="w3-opacity"><b>Web Developer </b></h5>
+                            <h6 class="w3-text-yellow"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2012 - Dec 2014</h6>
+                            <p>Consectetur adipisicing elit. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+                            <hr>
+                        </div>
+                        <div class="w3-container">
+                            <h5 class="w3-opacity"><b>Graphic Designer </b></h5>
+                            <h6 class="w3-text-yellow"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jun 2010 - Mar 2012</h6>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p><br>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="w3-container w3-card w3-white" id ="setBackground_right2">
+                        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-yellow"></i>Education</h2>
+                        
+                        <div class="w3-container">
+                            <h5 class="w3-opacity"><b>Kasetsart University</b></h5>
+                            <h6 class="w3-text-yellow"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2013 - 2015</h6>
+                            <p>Bachelor Degree</p>
+                            <hr>
+                        </div>
+                        <div class="w3-container">
+                            <h5 class="w3-opacity"><b>Debsirin</b></h5>
+                            <h6 class="w3-text-yellow"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2010 - 2013</h6>
+                            <p>high school</p><br>
+                        </div>
+                    </div>
+                    
+                <!--End Right Column -->
+                </div>
+            <!--End Grid -->
+            </div>
+        <!-- End Page Container -->       
+        </div>
+
+        <footer class="w3-container w3-yellow w3-center w3-margin-top">
+            <p>Find me on social media.</p>
+            <i class="fa fa-facebook-official w3-hover-opacity"></i>
+            <i class="fa fa-instagram w3-hover-opacity"></i>
+            <i class="fa fa-snapchat w3-hover-opacity"></i>
+            <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+            <i class="fa fa-twitter w3-hover-opacity"></i>
+            <i class="fa fa-linkedin w3-hover-opacity"></i>
+        </footer>
+
+
+       
+
+    </body>
 </html>
+
+<script type="text/javascript" src="resume.js"></script>

@@ -1,0 +1,109 @@
+/* W3.CSS 4.13 June 2019 by Jan Egil and Borge Refsnes */
+html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
+/* Extract from normalize.css by Nicolas Gallagher and Jonathan Neal git.io/normalize */
+html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
+article,aside,details,figcaption,figure,footer,header,main,menu,nav,section{display:block}summary{display:list-item}
+audio,canvas,progress,video{display:inline-block}progress{vertical-align:baseline}
+audio:not([controls]){display:none;height:0}[hidden],template{display:none}
+a{background-color:transparent}a:active,a:hover{outline-width:0}
+abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}
+b,strong{font-weight:bolder}dfn{font-style:italic}mark{background:#ff0;color:#000}
+small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}
+sub{bottom:-0.25em}sup{top:-0.5em}figure{margin:1em 40px}img{border-style:none}
+code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}hr{box-sizing:content-box;height:0;overflow:visible}
+button,input,select,textarea,optgroup{font:inherit;margin:0}optgroup{font-weight:bold}
+button,input{overflow:visible}button,select{text-transform:none}
+button,[type=button],[type=reset],[type=submit]{-webkit-appearance:button}
+button::-moz-focus-inner,[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner{border-style:none;padding:0}
+button:-moz-focusring,[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring{outline:1px dotted ButtonText}
+fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:.35em .625em .75em}
+legend{color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}
+[type=checkbox],[type=radio]{padding:0}
+[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}
+[type=search]{-webkit-appearance:textfield;outline-offset:-2px}
+[type=search]::-webkit-search-decoration{-webkit-appearance:none}
+::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}
+/* End extract */
+
+html,body{font-family:Verdana,sans-serif;font-size:15px;line-height:1.5}html{overflow-x:hidden}
+h1{font-size:36px}h2{font-size:30px}h3{font-size:24px}h4{font-size:20px}h5{font-size:18px}h6{font-size:16px}
+h1,h2,h3,h4,h5,h6{font-family:"Segoe UI",Arial,sans-serif;font-weight:400;margin:10px 0}.w3-wide{letter-spacing:4px}
+hr{border:0;border-top:1px solid #eee;margin:20px 0}
+article,aside,details,figcaption,figure,footer,header,main,menu,nav,section{display:block}
+.w3-light-grey{color: #000!important;background-color: lightgray}
+.w3-light-dark{color: #000!important;background-color: #62605C}
+.w3-content,.w3-auto{margin-left:auto;margin-right:auto}.w3-content{max-width:980px}.w3-auto{max-width:1140px}
+.w3-third,.w3-twothird{padding: 0 8px}
+.w3-display-container{position:relative}
+
+
+
+.w3-card-4,.w3-hover-shadow:hover{box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19)}
+.w3-card,.w3-card-2{box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)}
+.w3-display-bottomleft{position:absolute;left:0;bottom:0}
+.w3-display-bottomright{position:absolute;right:0;bottom:0}
+.w3-white{color:#000!important;background-color:#fff!important}
+.w3-dark{color:#000!important;background-color:#a8a8a8!important}
+.w3-text-grey{color:#757575!important}
+.w3-container,.w3-panel{padding:0.01em 16px}
+.w3-text-black{color:#000!important}
+.w3-text-white{color:#fff!important}
+.w3-text-yellow{color:yellow!important}
+.w3-large{font-size:18px!important}
+.w3-margin-right{margin-right:16px!important}
+.w3-round-xlarge{border-radius:16px}
+.w3-small{font-size:12px!important}
+.w3-center{text-align:center!important}
+.w3-center{text-align:center}
+.w3-teal,.w3-hover-teal:hover{color:#fff!important;background-color:#009688!important}
+.w3-blue,.w3-hover-blue:hover{color:#fff!important;background-color:#2E86C1!important}
+.w3-yellow,.w3-hover-yellow:hover{color:#fff!important;background-color:#FFC433!important}
+.w3-container:after,.w3-container:before{content:"";display:table;clear:both}
+.w3-opacity{opacity:0.60}.w3-rounds{border-radius:4px}
+.w3-tag{background-color:#000;color:#fff;display:inline-block;padding-left:8px;padding-right:8px;text-align:center}
+.w3-round{border-radius:4px}
+.w3-padding-16{padding-top:16px!important;padding-bottom:16px!important}
+.w3-xxlarge{font-size:36px!important}.w3-margin{margin:16px!important} 
+
+.w3-text-teal,.w3-hover-text-teal:hover{color:#009688!important}
+.w3-text-blue,.w3-hover-text-blue:hover{color:#2E86C1!important}
+.w3-text-yellow,.w3-hover-text-yellow:hover{color:#FFC433!important}
+
+input[type=textbox] , input[type=number]{
+    border : 1px solid #ccc;
+    border-radius:4px;
+}
+
+input[type=submit]{
+    background-color:  #009688;
+    color:#fff;
+    border : 1px solid #757575;
+    border-radius: 4px;
+}
+
+.w3-row-padding:after,.w3-row-padding:before{content:"";display:table;clear:both}
+.w3-margin-top{margin-top:16px!important}
+.w3-margin-bottom{margin-bottom:16px!important}
+.w3-third,.w3-twothird{float:left;width:100%}
+.w3-float-right{float:right;}
+
+
+.w3-textbox-skill{margin-left: 10px; margin-right: 10px; border-radius: 1px ; size: 10px}
+
+
+h2 .w3-inline{display: inline;}
+.w3-inline{display: inline;}
+.w3-pencil{cursor: pointer;}
+.w3-pencil:hover{color:red;transform: scale(1.2);}
+.w3-trash{cursor: pointer;}
+.w3-trash:hover{color:red;transform: scale(1.2);}
+.w3-plus{cursor: pointer;}
+.w3-plus:hover{color:green;transform: scale(1.2);}
+
+.desktop-lists-dark {float: right;margin-left: 7.5rem;;cursor: pointer;color:#a8a8a8!important}
+.desktop-lists-white {float: right;margin-left: 7.5rem;;cursor: pointer;color:#fff!important}
+
+.w3-third{width:33.33333%}
+.w3-twothird{width:66.66666%}
+
+
